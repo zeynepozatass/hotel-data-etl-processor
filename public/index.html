@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Data ETL Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏨 Hotel Data ETL System</h1>
+        
+        <div class="upload-section">
+            <form id="uploadForm">
+                <input type="file" name="csvFile" id="csvFile" accept=".csv" required>
+
+                <select name="sortOrder" id="sortOrder" class="select-style">
+                    <option value="desc">Stars: High to Low (5 -> 0)</option>
+                    <option value="asc">Stars: Low to High (0 -> 5)</option>
+                </select>
+                
+                <button type="submit" id="uploadBtn">Upload & Process</button>
+            </form>
+        </div>
+
+        <div id="statusMessage"></div>
+
+        <div class="table-container">
+            <table id="hotelTable" style="display:none;">
+                <thead>
+                    <tr>
+                        <th>Hotel Name</th>
+                        <th>Rating</th>
+                        <th>Website URL</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

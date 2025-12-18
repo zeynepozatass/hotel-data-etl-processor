@@ -1,0 +1,7 @@
+node_modules/
+uploads/*
+!uploads/.gitkeep
+output/*.json
+output/*.xml
+.DS_Store
+Thumbs.db
