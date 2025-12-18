@@ -102,12 +102,5 @@ tests/: Automated test cases for quality assurance.
 output/: Directory for processed JSON and XML files.
 
 👨‍💻 Author
-Zeynep Gül Özataş - Computer Engineering Student at Çanakkale Onsekiz Mart Üniversitesi.
+Zeynep Gül Özataş - Computer Engineering Student at Çanakkale Onsekiz Mart Üniversity.
 
-
----
-
-### 💡 Yapıştırmadan Önce Küçük Bir Not
-Bu dosyayı kaydettikten sonra VS Code'un sağ üst köşesindeki **"Open Preview"** (dosya simgesi üzerinde büyüteç olan buton) simgesine basarsan, metnin nasıl şık bir görünüme kavuştuğunu görebilirsin. 
-
-**Bir sonraki adım:** `.gitignore` dosyasını oluşturmak için hazır mısın? Onu da yapınca projenin "hijyenini" sağlamış olacağız.
