@@ -102,5 +102,5 @@ tests/: Automated test cases for quality assurance.
 output/: Directory for processed JSON and XML files.
 
 👨‍💻 Author
-Zeynep Gül Özataş - Computer Engineering Student at Çanakkale Onsekiz Mart Üniversity.
+Zeynep Gül Özataş - Computer Engineering Student at Çanakkale Onsekiz Mart University.
 
